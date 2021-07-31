@@ -2,7 +2,7 @@
 <html lang="en">
 
 <!--
-  🌞 Emotional Hardware 🌞
+  ємσтισηαℓнαя∂ωαяє
   Johnson & Jeisson
   2020
 -->	
@@ -12,8 +12,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="🌞">
-    <title>hardware for comfort</title>
-    <link rel="shortcut icon" href="https://cdn1.ftimg.com/images/logos/big/en_US/camouflage-background.png">
+    <title>ємσтισηαℓнαя∂ωαяє</title>
+    <link rel="shortcut icon" href="https://d2w9rnfcy7mm78.cloudfront.net/12700449/original_61f74965f6c8d5dcdaa19c9c6a7f9e83.png?1627759559?bc=0">
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
     <script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script>
     </head>
@@ -23,8 +23,12 @@
 
     <a-assets>
         <a-asset-items id="casa" src="./assets/exterior.glb" preload="auto"></a-asset-item>
-        <a-asset-items id="resorte" src="./assets/resorte.glb" preload="auto"></a-asset-item>
-        <a-asset-items id="pocillo" src="./assets/pocillo.glb" preload="auto"></a-asset-item>
+        <a-asset-items id="ladrillo" src="./assets/ladrillo.glb" preload="auto"></a-asset-item>
+        <a-asset-items id="armario" src="./assets/armario.glb" preload="auto"></a-asset-item>
+        <a-asset-items id="escritorio" src="./assets/escritorio.glb" preload="auto"></a-asset-item>
+        <a-asset-items id="cortina" src="./assets/cortina.glb" preload="auto"></a-asset-item>
+        <a-asset-items id="camita" src="./assets/camita.glb" preload="auto"></a-asset-item>
+        <a-asset-items id="decoracion" src="./assets/decoracion.glb" preload="auto"></a-asset-item>
         <!--
             <audio id="audio" src="./assets/burriparlante.mpeg" preload="auto" autoplay loop="true"></audio>
         -->
@@ -34,8 +38,12 @@
      loading-screen="enabled: false"; vr-mode-ui="enabled: false">
     <a-entity environment="preset: default; skyType: atmosphere; sunPosition: 1 7 -2; groundTexture: walkernoise; groundColor: #228B22; groundColor2: #9ACD32; grid: none"></a-entity>
     <a-entity gltf-model="#casa" scale="3 3 3" position="0 0.1 0" rotation="0 0 0"></a-entity>
-    <a-entity gltf-model="#resorte" scale="2 2 2" position="0 0 0"></a-entity>
-    <a-entity gltf-model="#pocillo" scale="2 2 2" position="0 0 0" rotation="0 180 0"></a-entity>
+    <a-entity gltf-model="#camita" scale="3 3 3" position="0 0.1 0" rotation="0 0 0"></a-entity>
+    <a-entity gltf-model="#escritorio" scale="3 3 3" position="-0.630 0.190 0.160" rotation="0 0 0"></a-entity>
+    <a-entity gltf-model="#decoracion" scale="3 3 3" position="0 0.1 0" rotation="0 0 0"></a-entity>
+    <a-entity gltf-model="#armario"  scale="3 3 3" position="0 0.1 0" rotation="0 0 0"></a-entity>
+    <a-entity gltf-model="#ladrillo"  scale="5 5 5" position="-13.303 0.100 2.884" rotation="0 0 0"></a-entity>
+    <a-entity gltf-model="#cortina"  scale="2.5 2.5 3" position="0.35 0.5 0.1" rotation="0 0 0"></a-entity>
    <!-- 
        <a-entity sound="src:#audio; autoplay="true"; loop="true"></a-entity>
     -->
